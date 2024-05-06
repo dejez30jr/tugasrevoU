@@ -5,6 +5,10 @@ html,body{
     box-sizing: border-box;
 }
 
+h2{
+     font-family: "Permanent Marker", cursive;
+}
+
 body{
     /* background-color: rgb(216, 218, 219) ; */
 }
