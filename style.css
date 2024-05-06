@@ -298,15 +298,23 @@ a{
 /*respinsve*/
 
 @media (max-width: 590px){
+    .judul{
+        margin-top: 20%;
+    }
     .card-items{
         width: 90%;
         border: none;
     }
     .barisan{
+        justify-content: center;
         text-align: center;
         width: 90%;
     }
     .box{
+        justify-content: center;
         flex-wrap: wrap;
+    }
+    .cards{
+        width: 90%;
     }
 }
