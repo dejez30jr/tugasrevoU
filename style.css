@@ -250,6 +250,11 @@ b{
 
 .cards:hover{
     transform: scale(1,2);
+    background-color: tomato;
+}
+
+i{
+    color: red;
 }
 
 .kota{
