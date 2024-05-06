@@ -16,6 +16,8 @@ body{
 nav{
     justify-content: space-between;
     display: flex;
+    width: 100%;
+    position: fixed;
     padding: 1rem 2rem;
     color: aliceblue;
     background-color: rgb(88, 105, 212);
@@ -72,7 +74,7 @@ ul li a:hover{
 
 .judul{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 10%;
     margin-bottom: 15PX;
 }
 .judul-end{
