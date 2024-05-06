@@ -253,6 +253,10 @@ b{
     background-color: tomato;
 }
 
+.location{
+    color: red;
+}
+
 .kota{
     align-items: center;
    margin: 10px;
