@@ -136,6 +136,7 @@ h3{
 
 .login{
     width: 300px;
+    margin-top: 8%;
     background-color: aquamarine;
     border: 1px solid black;
     gap: 1rem;
