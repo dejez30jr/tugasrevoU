@@ -48,30 +48,6 @@ ul li a:hover{
    
 }
 
-@media (max-width:768px){
-    nav{
-        flex-wrap: wrap;
-        position: fixed;
-        width: 100%;
-    }
-
-    nav ul{
-       flex-direction: column;
-       width: 100%;
-    }
-    
-    nav ul.hidden{
-        display: none;
-    }
-
-    .menu-icon{
-      
-        align-items: center;
-        display: flex;
-    }
-}
-
-
 .judul{
     text-align: center;
     margin-top: 10%;
@@ -308,8 +284,19 @@ a{
     color: aliceblue;
 }
 
-/*respinsve*/
+.suport{
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
+.revo{
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+/*respinsve*/
 @media (max-width: 590px){
     .judul{
         margin-top: 20%;
@@ -331,3 +318,26 @@ a{
         width: 90%;
     }
 }
+@media (max-width:768px){
+    nav{
+        flex-wrap: wrap;
+        position: fixed;
+        width: 100%;
+    }
+
+    nav ul{
+       flex-direction: column;
+       width: 100%;
+    }
+    
+    nav ul.hidden{
+        display: none;
+    }
+
+    .menu-icon{
+      
+        align-items: center;
+        display: flex;
+    }
+}
+
