@@ -339,7 +339,6 @@ a{
 
 .item:hover{
     background-color: aliceblue;
-    transform: scale(1,2);
     border-radius: 15px;
 }
 @media (max-width:768px){
