@@ -324,8 +324,9 @@ a{
     height: auto;
     display: flex;
     overflow-x: auto;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
 }
 
 .item{
@@ -340,6 +341,7 @@ a{
 .item:hover{
     background-color: aliceblue;
     border-radius: 15px;
+    border: 3px solid orange;
 }
 @media (max-width:768px){
     .item{
