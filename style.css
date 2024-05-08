@@ -72,34 +72,28 @@ ul li a:hover{
 .card-items{
     margin-top: 8%;
     width: 50%;
-    border: 2px solid black;
+/*     border: 2px solid black; */
     border-radius: 15px;
     text-align: center;
     box-sizing: border-box;
-    background-color: antiquewhite;
+/*     background-color: antiquewhite; */
+}
+
+.trevel{
+    margin-bottom: 0;
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+    background-color: rgb(27, 27, 27);
+    color: aliceblue;
+    border-radius: 10px 10px 0px 0px;
 }
 
 .img-a{
- border-radius: 10px 10px 0px 0px;
+ border-radius: 0px 0px 10px 10px;
   width: 100%;
 }
 
 .week{
-   
-}
-
-.pp{
-    width: 40px;
-    border-radius: 50%;
-    border: 2px solid rgb(255, 255, 255);
-    margin-left: 10px;
-}
-
-.chenel{
-    margin-top: 15px;
-   display: flex;
-   align-items: center;
-   gap: 1rem;
    
 }
 
